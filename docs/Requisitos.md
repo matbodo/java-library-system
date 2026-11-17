@@ -18,6 +18,6 @@
 
 ### Requisitos Não Funcionais (RNF)
 - **RNF01 – Linguagem e Plataforma:** O sistema deve ser desenvolvido na trilha Java utilizando o JDK 21 (LTS).
-- **RNF02 – Arquitetura Evolutiva:** Na etapa inicial (TP1), o sistema deve operar como um programa standalone de console sem estruturas orientadas a objetos, evoluindo nas etapas seguintes para aplicação orientada a objetos e serviço web com API REST (Spring Boot), persistência em banco de dados e autenticação.
+- **RNF02 – Arquitetura Evolutiva:** O sistema deve operar como um programa standalone de console sem estruturas orientadas a objetos, evoluindo nas etapas seguintes para aplicação orientada a objetos e serviço web com API REST (Spring Boot), persistência em banco de dados e autenticação.
 - **RNF03 – Usabilidade (Console):** A interface inicial via linha de comando (CLI) deve apresentar menus numéricos claros e mensagens de feedback imediatas para bloqueios de regras de negócio ou validações de entrada.
 - **RNF04 – Integridade das Regras:** O sistema deve validar as pré-condições de empréstimo, devolução e reserva antes de alterar o estado de disponibilidade de qualquer exemplar.
